@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: #393D47;
+}
+
+button {
+  background-color: #858994;
+}
+
+h1, .winner{
+  color: #858994;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+
+.winner{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(3, 85px);
+  grid-template-columns: repeat(3, 85px);
+}
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+}
+
+.start-button{
+  border: none;
+  font-weight: bold;
+  width: 50%;
+  margin: auto;
+}
